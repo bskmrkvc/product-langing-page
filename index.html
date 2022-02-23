@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset=UTF-8>
+	<title>Your Gloves</title>
+	<link rel=stylesheet href=./style.css>
+</head>
+<body>
+	<header id="header">
+		<nav id="nav-bar">
+			<img id="header-img" src="logo.png" alt="Gloves logo">
+			<h1 id="title">Your Best Fighting Gloves Options</h1>
+			<ul class="links">
+				<li><a class="nav-link" href="#acoustic">Glove Types</a></li>
+				<li><a class="nav-link" href="#demonstration">Demonstration</a></li>
+				<li><a class="nav-link" href="#purchase">Purchase</a></li>
+			</ul>
+			<div class="burger">
+				<div id="line1"></div>
+				<div id="line2"></div>
+				<div id="line3"></div>
+			</div>
+		</nav>
+	</header>
+
+	<div id="main">
+		<h2>These are the three main types of gloves:</h2>
+		<section id="semi-contact">
+			<div class="types">
+				<img class="icon" src="https://m.media-amazon.com/images/I/91OFvfQj8GL._AC_SL1500_.jpg" alt="semi-contact">
+				<div>
+					<h2>Semi-Contact</h2>
+					<p>Semi contact gloves are made of durable fine quality artificial leather with pre formed mold for safe punching. Comes with elastic Velcro closure. Ideal for training, sparring and competitions.</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="boxing">
+			<div class="types">
+				<img class="icon" src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/01/06/15/best-boxing-gloves.jpg?width=982&height=726" alt="boxing">
+				<div>
+					<h2>Boxing</h2>
+					<p>Boxing gloves are cushioned gloves that fighters wear on their hands during boxing matches. The term also refers to gloves used in training, though these often differ from competition gloves.</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="mma">
+			<div class="types">
+				<img class="icon" src="https://cdn-cedkp.nitrocdn.com/oSEuEgIFIFDFzMOJAZrQGWIOltYADFns/assets/static/optimized/rev-77dd8e2/wp-content/uploads/2018/06/2017-cat-banner-mma-gloves-lp.jpg" alt="mma">
+				<div>
+					<h2>MMA</h2>
+					<p>MMA gloves or grappling gloves are small, open-fingered gloves used in mixed martial arts bouts. They usually have around 4–6 oz of padding and are designed to provide some protection to the person wearing the glove, but leave the fingers available for grappling maneuvers such as clinch fighting and submissions.
+					</p>
+				</div>
+			</div>
+		</section> <br> <br>
+
+		<h2>Checkout the video to decide which option is best for you</h2>
+		<br>
+		<section id="demonstration">
+			<iframe id="video" height="400" width="700" src="https://www.youtube.com/watch?v=_dAe70Cb9bM&t" frameborder="0"></iframe>
+		</section> <br> <br>
+
+		<section id="purchase">
+			<h2>Fill out this form to make your purchase</h2>
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+				<label>Name <input type="text" name="name" placeholder="Enter Name" required></label>
+				<label>Email <input id="email" type="email" name="email" placeholder="Enter Email" required ></label>
+				<label>Credit Card <input type="radio" name="payment" checked ></label>
+				<label>Paypal <input type="radio" name="payment"></label>
+				<button type="submit" id="submit" >Pay Now</button>
+			</form>
+		</section>
+	</div>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<script type=text/javascript src=./script.js></script>
+</body>
+</html>
+
